@@ -16,11 +16,12 @@ html{
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 .navbar{
     color: black;
     background: rgb(154, 40, 40);
-    height: 80px;
+    height: 50px;
 }
 .logo{
     text-transform: uppercase;
@@ -38,8 +39,8 @@ html{
 }
 
 .navbar ul{
-    list list-style: none;
-    text:: :right;
+    list-style: none;
+    text-align: center;
 }
 .navbar ul li{
     display: inline-block;
