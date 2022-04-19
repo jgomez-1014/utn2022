@@ -37,14 +37,14 @@ html{
     margin-right: auto;
 }
 
-.navbar{
+.navbar ul{
     list list-style: none;
-    text-aling: :right;
+    text:: :right;
 }
-.nav{
-    display: block;
+.navbar ul li{
+    display: inline-block;
 }
-.navbar{
+.navbar ul li a{
 text-decoration: none;
 display: block;
 padding: 15px;
