@@ -33,7 +33,7 @@ html{
 .navbar{
     background: rgb(101, 101, 155);
     color: white;
-    width: 85w;
+    width: 85vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -55,3 +55,97 @@ color: #6bc38a;
     background-color: azure;
     color: rgb(101, 101, 155);
 }
+.banner{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+#contenedor{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* display flex es para acomodar las imagenes de acuerdo a su tamaño */
+    justify-content: space-around;
+}
+.body{
+    background: thistle;
+}
+#contenedor img{
+    width: 100%;
+}
+.primero{
+    padding: 3%;
+    width: 30%;
+}
+.segundo{
+    padding: 3%;
+    width: 30%;
+}
+.tercero{
+    padding: 3%;
+    width: 30%;
+}
+.footer{
+    margin-top: 25px;
+    background: violet;
+    display: flex;
+}
+.footer ul{
+    list-style: none;
+}
+.data{
+    background: greenyellow;
+    color: black;
+    margin-top: 10px;
+}
+.map{
+    width: 60%;
+    margin-top: 10px;
+    padding: 2%;
+}
+/* media es para hacerlo responsivo, se ponen reglas de diseño */
+@media screen and (min-width: 660px) and (max-width: 989px){
+
+    .body{
+        background: yellow;
+    }
+    .logo{width: 100%;
+        text-align: center;}
+        .banner{
+            display: none;
+}
+.primero{
+    width: 100%;
+}
+.primero figure{
+    height: 300px;
+    overflow: hidden0;
+}
+.segundo{         width: 50%;      }      
+.tercero{         width: 50%;      } 
+}
+
+@media screen and (min-width: 990px) and (max-width: 1900px){
+
+    .body{
+        background: rgb(42, 170, 221);
+    }
+
+}
+
+/* media quieris de bookstrap */
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
